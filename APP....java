@@ -1,49 +1,77 @@
 public class App {
+
+    
     public static void main(String[] args) throws Exception {
+      int number1 = 2;
+      int number2 = 4;
 
-        int age = 18;
-                if (age >=18){
-                    System.out.println("you can drive a car");
-                }
-                else{
-                    System.out.println("you are not eligible to drive");
-                }
-
-
-   int age1 =10;
-   int age2 =20;
-   int age3 =30;
-   int age4 =40;
-   int age5 =50;
-   int age6 =60;
-   int age7 =70;
-   int age8 =80;
-   int age9 =90;
-   int age10 =100;
-   int age11=110;
-   int age12=120;
-if ( age1== 10 || age2==20|| age3==30|| age4==40|| age5==50|| age6==60|| age7==70|| age8==80|| age9==90|| age10==100|| age11==110|| age12==120)
-{
-    System.out.println("you can celebrate anniversary party");
+      if (number1==number2)
+      {
+        System.out.println("number1 and number2 are equal");
+      }
+    
+    if (number1>number2)
+    {
+        System.out.println("number1 is greater than number2");
     }
-    else{
-        System.out.println("you cannot celebrate anniversary party");
+
+    if (number1 >= number2)
+    System.out.println("number1 is greater than or equal to number2");
+    {
+       
+       if (number1!=number2);
+       System.out.println("number1 and number2 are not equal");
+    }
+
+
+int number3 = 10;
+int number4 = 10;
+int number5 = 12;
+if (number1 == number2 && number2 == number3)
+ {
+System.out.println("All numbers are equal");
+}
+if (number3 == number4 || number4 == number5)
+{
+    System.out.println("number3 and number4 are equal OR number4 and number5 are equal");
+}
+if (number3 > number4 && number3 > number4)
+{
+    System.out.println("number3 is greater than number4 and number5");
+}
+if (number3 > number4)
+ {
+System.out.println("number3 is greater than number4");
  }
+ else if (number4 > number5) 
+{
+    System.out.println("number4 is greater than number5");
+}
+if (number3==number5)
+{
+   System.out.println("number3 and number4 are equal"); 
+}
+else if (number3==number5){
+    System.out.println("number3 and number5 are equal");
+}
 
-        int age13=100;
-        if(age13==100){
-            System.out.println("provide three line congratulations");
-        }else
-             {
-                System.out.println("donot provide congratulations");
-                        }
-        
-        int age14=40;
-        int age24=50;
-        if(age14>=40 && age24<=50){
-        System.out.println("wish a happy mid life");}else{
 
-            System.out.println("don't wish happy mid life");
-        }
-        
+
+ String name1 = "batista";
+ String name2 = "undertaker";
+ String name3 = "bigshow";
+ if(name1.equals(name2)){
+    System.out.println("name1 and name2 are equal");
+}
+  if(!name1.equals(name2)){
+System.out.println("name1 and name2 are not equal");
+ }
+ if(name1.equals(name2)){
+System.out.println("name1 and name2 are equal");
+    }
+    else if(name1.equals(name3)){
+        System.out.println("name1 and name3 are equal");
+
+    }
+
 }}
